@@ -5,7 +5,7 @@ export class Hero {
   name: string;
 }
 
-const heroes = HEROES: Hero[] = [
+const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
   { id: 13, name: 'Bombasto' },
@@ -38,9 +38,6 @@ const heroes = HEROES: Hero[] = [
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  };
+  heroes = HEROES;
 }
 
