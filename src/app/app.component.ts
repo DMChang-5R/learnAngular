@@ -20,10 +20,7 @@ const HEROES: Hero[] = [
 
 @Component({
   selector: 'app-root',
-  template: `
-    <h1>{{title}}</h1>
-    <app-heroes></app-heroes>
-    `,
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
